@@ -2,8 +2,6 @@
 Test the MessagePack utility
 """
 
-# Import Python Libs
-
 import inspect
 import os
 import pprint
@@ -12,12 +10,7 @@ import sys
 from io import BytesIO
 
 import salt.utils.msgpack
-from salt.ext.six.moves import range
-
-# Import Salt Libs
 from salt.utils.odict import OrderedDict
-
-# Import Salt Testing Libs
 from tests.support.unit import TestCase, skipIf
 
 try:
